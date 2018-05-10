@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QL_DocGiaThuVien", "QL_DocGiaThuVien\QL_DocGiaThuVien.csproj", "{4F317715-2999-40D7-9F58-D393E92363F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAO", "DAO\DAO.csproj", "{BCE04052-9F45-4D41-B844-A3CE7E02C493}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BUS", "BUS\BUS.csproj", "{7941B296-BF54-41D5-A504-1407BFC4E22B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F317715-2999-40D7-9F58-D393E92363F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F317715-2999-40D7-9F58-D393E92363F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F317715-2999-40D7-9F58-D393E92363F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F317715-2999-40D7-9F58-D393E92363F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCE04052-9F45-4D41-B844-A3CE7E02C493}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCE04052-9F45-4D41-B844-A3CE7E02C493}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCE04052-9F45-4D41-B844-A3CE7E02C493}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCE04052-9F45-4D41-B844-A3CE7E02C493}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7941B296-BF54-41D5-A504-1407BFC4E22B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7941B296-BF54-41D5-A504-1407BFC4E22B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7941B296-BF54-41D5-A504-1407BFC4E22B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7941B296-BF54-41D5-A504-1407BFC4E22B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

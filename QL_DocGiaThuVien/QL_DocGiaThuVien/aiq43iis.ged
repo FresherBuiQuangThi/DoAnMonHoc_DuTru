@@ -1,0 +1,1040 @@
+﻿namespace QL_DocGiaThuVien
+{
+    partial class mComboboxDanToc
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+     
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
+            this.mTextBoxName = new System.Windows.Forms.TextBox();
+            this.labelControl5 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl7 = new DevExpress.XtraEditors.LabelControl();
+            this.mTextBoxDateOfBirth = new System.Windows.Forms.TextBox();
+            this.labelControl8 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl9 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl10 = new DevExpress.XtraEditors.LabelControl();
+            this.mComboDanToc = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.labelControl11 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl12 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl13 = new DevExpress.XtraEditors.LabelControl();
+            this.mTextBoxCMND = new System.Windows.Forms.TextBox();
+            this.labelControl14 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl15 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl16 = new DevExpress.XtraEditors.LabelControl();
+            this.mTextBoxWork = new System.Windows.Forms.TextBox();
+            this.labelControl17 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl18 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl19 = new DevExpress.XtraEditors.LabelControl();
+            this.mComboboxGroupWork = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.labelControl20 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl21 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl22 = new DevExpress.XtraEditors.LabelControl();
+            this.mTextBoxWorkAddress = new System.Windows.Forms.TextBox();
+            this.labelControl23 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl24 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl25 = new DevExpress.XtraEditors.LabelControl();
+            this.mTextBoxHomeAddress = new System.Windows.Forms.TextBox();
+            this.labelControl26 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl27 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl28 = new DevExpress.XtraEditors.LabelControl();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.labelControl29 = new DevExpress.XtraEditors.LabelControl();
+            this.mRadioButtonFemale = new System.Windows.Forms.RadioButton();
+            this.mRadioButtonMale = new System.Windows.Forms.RadioButton();
+            this.mRadioChild = new System.Windows.Forms.RadioButton();
+            this.mRadioPersion = new System.Windows.Forms.RadioButton();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl30 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl31 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl32 = new DevExpress.XtraEditors.LabelControl();
+            this.mComBoboxCountry = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.labelControl33 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl34 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl35 = new DevExpress.XtraEditors.LabelControl();
+            this.comboBoxEdit2 = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.mTextBoxAdrdressCMND = new System.Windows.Forms.TextBox();
+            this.labelControl36 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl37 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl38 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl39 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl40 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl41 = new DevExpress.XtraEditors.LabelControl();
+            this.mTextBoxMobile = new System.Windows.Forms.TextBox();
+            this.labelControl42 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl43 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl44 = new DevExpress.XtraEditors.LabelControl();
+            this.mTextBoxWorkplace = new System.Windows.Forms.TextBox();
+            this.labelControl45 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl46 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl47 = new DevExpress.XtraEditors.LabelControl();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.mButtonCode = new DevExpress.XtraEditors.SimpleButton();
+            this.mButtonregis = new DevExpress.XtraEditors.SimpleButton();
+            this.mButtonReset = new DevExpress.XtraEditors.SimpleButton();
+            this.labelControl48 = new DevExpress.XtraEditors.LabelControl();
+            ((System.ComponentModel.ISupportInitialize)(this.mComboDanToc.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mComboboxGroupWork.Properties)).BeginInit();
+            this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.mComBoboxCountry.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit2.Properties)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // labelControl2
+            // 
+            this.labelControl2.Location = new System.Drawing.Point(65, 85);
+            this.labelControl2.Name = "labelControl2";
+            this.labelControl2.Size = new System.Drawing.Size(47, 13);
+            this.labelControl2.TabIndex = 3;
+            this.labelControl2.Text = "Họ và tên";
+            // 
+            // labelControl3
+            // 
+            this.labelControl3.Appearance.ForeColor = System.Drawing.Color.Red;
+            this.labelControl3.Appearance.Options.UseForeColor = true;
+            this.labelControl3.Location = new System.Drawing.Point(118, 85);
+            this.labelControl3.Name = "labelControl3";
+            this.labelControl3.Size = new System.Drawing.Size(14, 13);
+            this.labelControl3.TabIndex = 4;
+            this.labelControl3.Text = "(*)";
+            // 
+            // labelControl4
+            // 
+            this.labelControl4.Location = new System.Drawing.Point(138, 85);
+            this.labelControl4.Name = "labelControl4";
+            this.labelControl4.Size = new System.Drawing.Size(4, 13);
+            this.labelControl4.TabIndex = 5;
+            this.labelControl4.Text = ":";
+            // 
+            // mTextBoxName
+            // 
+            this.mTextBoxName.Location = new System.Drawing.Point(186, 77);
+            this.mTextBoxName.Name = "mTextBoxName";
+            this.mTextBoxName.Size = new System.Drawing.Size(231, 21);
+            this.mTextBoxName.TabIndex = 6;
+            this.mTextBoxName.Tag = "";
+            this.mTextBoxName.TextChanged += new System.EventHandler(this.mTextBoxName_TextChanged);
+            // 
+            // labelControl5
+            // 
+            this.labelControl5.Location = new System.Drawing.Point(138, 124);
+            this.labelControl5.Name = "labelControl5";
+            this.labelControl5.Size = new System.Drawing.Size(4, 13);
+            this.labelControl5.TabIndex = 9;
+            this.labelControl5.Text = ":";
+            // 
+            // labelControl6
+            // 
+            this.labelControl6.Appearance.ForeColor = System.Drawing.Color.Red;
+            this.labelControl6.Appearance.Options.UseForeColor = true;
+            this.labelControl6.Location = new System.Drawing.Point(118, 124);
+            this.labelControl6.Name = "labelControl6";
+            this.labelControl6.Size = new System.Drawing.Size(14, 13);
+            this.labelControl6.TabIndex = 8;
+            this.labelControl6.Text = "(*)";
+            // 
+            // labelControl7
+            // 
+            this.labelControl7.Location = new System.Drawing.Point(65, 124);
+            this.labelControl7.Name = "labelControl7";
+            this.labelControl7.Size = new System.Drawing.Size(47, 13);
+            this.labelControl7.TabIndex = 7;
+            this.labelControl7.Text = "Ngày sinh";
+            // 
+            // mTextBoxDateOfBirth
+            // 
+            this.mTextBoxDateOfBirth.Location = new System.Drawing.Point(186, 116);
+            this.mTextBoxDateOfBirth.Name = "mTextBoxDateOfBirth";
+            this.mTextBoxDateOfBirth.Size = new System.Drawing.Size(231, 21);
+            this.mTextBoxDateOfBirth.TabIndex = 10;
+            this.mTextBoxDateOfBirth.Tag = "";
+            // 
+            // labelControl8
+            // 
+            this.labelControl8.Location = new System.Drawing.Point(138, 162);
+            this.labelControl8.Name = "labelControl8";
+            this.labelControl8.Size = new System.Drawing.Size(4, 13);
+            this.labelControl8.TabIndex = 13;
+            this.labelControl8.Text = ":";
+            // 
+            // labelControl9
+            // 
+            this.labelControl9.Appearance.ForeColor = System.Drawing.Color.Red;
+            this.labelControl9.Appearance.Options.UseForeColor = true;
+            this.labelControl9.Location = new System.Drawing.Point(118, 162);
+            this.labelControl9.Name = "labelControl9";
+            this.labelControl9.Size = new System.Drawing.Size(14, 13);
+            this.labelControl9.TabIndex = 12;
+            this.labelControl9.Text = "(*)";
+            // 
+            // labelControl10
+            // 
+            this.labelControl10.Location = new System.Drawing.Point(76, 162);
+            this.labelControl10.Name = "labelControl10";
+            this.labelControl10.Size = new System.Drawing.Size(37, 13);
+            this.labelControl10.TabIndex = 11;
+            this.labelControl10.Text = "Dân tộc";
+            // 
+            // mComboDanToc
+            // 
+            this.mComboDanToc.EditValue = "--- Dân tộc ---";
+            this.mComboDanToc.Location = new System.Drawing.Point(186, 155);
+            this.mComboDanToc.Name = "mComboDanToc";
+            this.mComboDanToc.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.mComboDanToc.Properties.Items.AddRange(new object[] {
+            "Kinh",
+            "Tày",
+            "Thái",
+            "Mường",
+            "Khơ Me",
+            "H\'Mông",
+            "Nùng",
+            "Hoa",
+            "Dao",
+            "Gia Rai",
+            "Ê Đê",
+            "Ba Na",
+            "Xơ Đăng",
+            "Sán Chay",
+            "Cơ Ho",
+            "Chăm",
+            "Sán Dìu",
+            "Hrê",
+            "Ra Glai",
+            "M\'Nông",
+            "X’Tiêng",
+            "Bru-Vân Kiều",
+            "Thổ",
+            "Khơ Mú",
+            "Cơ Tu",
+            "Giáy",
+            "Giẻ Triêng",
+            "Tà Ôi",
+            "Mạ",
+            "Co",
+            "Chơ Ro",
+            "Xinh Mun",
+            "Hà Nhì",
+            "Chu Ru",
+            "Lào",
+            "Kháng",
+            "La Chí",
+            "Phù Lá",
+            "La Hủ",
+            "La Ha",
+            "Pà Thẻn",
+            "Chứt",
+            "Lự",
+            "Lô Lô",
+            "Mảng",
+            "Cờ Lao",
+            "Bố Y",
+            "Cống",
+            "Ngái",
+            "Si La",
+            "Pu Péo",
+            "Rơ măm",
+            "Brâu",
+            "Ơ Đu",
+            "Khác"});
+            this.mComboDanToc.Size = new System.Drawing.Size(231, 20);
+            this.mComboDanToc.TabIndex = 14;
+            // 
+            // labelControl11
+            // 
+            this.labelControl11.Location = new System.Drawing.Point(138, 198);
+            this.labelControl11.Name = "labelControl11";
+            this.labelControl11.Size = new System.Drawing.Size(4, 13);
+            this.labelControl11.TabIndex = 17;
+            this.labelControl11.Text = ":";
+            // 
+            // labelControl12
+            // 
+            this.labelControl12.Appearance.ForeColor = System.Drawing.Color.Red;
+            this.labelControl12.Appearance.Options.UseForeColor = true;
+            this.labelControl12.Location = new System.Drawing.Point(118, 198);
+            this.labelControl12.Name = "labelControl12";
+            this.labelControl12.Size = new System.Drawing.Size(14, 13);
+            this.labelControl12.TabIndex = 16;
+            this.labelControl12.Text = "(*)";
+            // 
+            // labelControl13
+            // 
+            this.labelControl13.Location = new System.Drawing.Point(83, 198);
+            this.labelControl13.Name = "labelControl13";
+            this.labelControl13.Size = new System.Drawing.Size(29, 13);
+            this.labelControl13.TabIndex = 15;
+            this.labelControl13.Text = "CMND";
+            // 
+            // mTextBoxCMND
+            // 
+            this.mTextBoxCMND.Location = new System.Drawing.Point(186, 190);
+            this.mTextBoxCMND.Name = "mTextBoxCMND";
+            this.mTextBoxCMND.Size = new System.Drawing.Size(231, 21);
+            this.mTextBoxCMND.TabIndex = 18;
+            this.mTextBoxCMND.Tag = "";
+            // 
+            // labelControl14
+            // 
+            this.labelControl14.Location = new System.Drawing.Point(137, 234);
+            this.labelControl14.Name = "labelControl14";
+            this.labelControl14.Size = new System.Drawing.Size(4, 13);
+            this.labelControl14.TabIndex = 21;
+            this.labelControl14.Text = ":";
+            this.labelControl14.Click += new System.EventHandler(this.labelControl14_Click);
+            // 
+            // labelControl15
+            // 
+            this.labelControl15.Appearance.ForeColor = System.Drawing.Color.Red;
+            this.labelControl15.Appearance.Options.UseForeColor = true;
+            this.labelControl15.Location = new System.Drawing.Point(117, 234);
+            this.labelControl15.Name = "labelControl15";
+            this.labelControl15.Size = new System.Drawing.Size(14, 13);
+            this.labelControl15.TabIndex = 20;
+            this.labelControl15.Text = "(*)";
+            this.labelControl15.Click += new System.EventHandler(this.labelControl15_Click);
+            // 
+            // labelControl16
+            // 
+            this.labelControl16.Location = new System.Drawing.Point(53, 234);
+            this.labelControl16.Name = "labelControl16";
+            this.labelControl16.Size = new System.Drawing.Size(60, 13);
+            this.labelControl16.TabIndex = 19;
+            this.labelControl16.Text = "Nghề nghiệp";
+            this.labelControl16.Click += new System.EventHandler(this.labelControl16_Click);
+            // 
+            // mTextBoxWork
+            // 
+            this.mTextBoxWork.Location = new System.Drawing.Point(186, 226);
+            this.mTextBoxWork.Name = "mTextBoxWork";
+            this.mTextBoxWork.Size = new System.Drawing.Size(231, 21);
+            this.mTextBoxWork.TabIndex = 22;
+            this.mTextBoxWork.Tag = "";
+            // 
+            // labelControl17
+            // 
+            this.labelControl17.Location = new System.Drawing.Point(137, 270);
+            this.labelControl17.Name = "labelControl17";
+            this.labelControl17.Size = new System.Drawing.Size(4, 13);
+            this.labelControl17.TabIndex = 25;
+            this.labelControl17.Text = ":";
+            // 
+            // labelControl18
+            // 
+            this.labelControl18.Appearance.ForeColor = System.Drawing.Color.Red;
+            this.labelControl18.Appearance.Options.UseForeColor = true;
+            this.labelControl18.Location = new System.Drawing.Point(117, 270);
+            this.labelControl18.Name = "labelControl18";
+            this.labelControl18.Size = new System.Drawing.Size(14, 13);
+            this.labelControl18.TabIndex = 24;
+            this.labelControl18.Text = "(*)";
+            // 
+            // labelControl19
+            // 
+            this.labelControl19.Location = new System.Drawing.Point(25, 270);
+            this.labelControl19.Name = "labelControl19";
+            this.labelControl19.Size = new System.Drawing.Size(87, 13);
+            this.labelControl19.TabIndex = 23;
+            this.labelControl19.Text = "Nhóm ngành nghề";
+            // 
+            // mComboboxGroupWork
+            // 
+            this.mComboboxGroupWork.EditValue = "---Nhóm ngành nghề ---";
+            this.mComboboxGroupWork.Location = new System.Drawing.Point(186, 263);
+            this.mComboboxGroupWork.Name = "mComboboxGroupWork";
+            this.mComboboxGroupWork.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.mComboboxGroupWork.Properties.Items.AddRange(new object[] {
+            "AN NINH QUỐC PHÒNG",
+            "BƯU CHÍNH VIỄN THÔNG",
+            "BÁO CHÍ - PHÁT THANH TH",
+            "BẤT ĐỘNG SẢN",
+            "BÀO TỒN - BẢO TÀNG",
+            "CÔNG NGHỆ THÔNG TIN",
+            "CÔNG NGHỆ HÓA-SINH-THỰC PHẨM",
+            "CÁN BỘ CNVC",
+            "CÁN BỘ QUẢN LÝ",
+            "DỊCH VỤ ",
+            "DẦU KHÍ",
+            "DU LỊCH",
+            "GIÁO DỤC HỌC",
+            "GIAO THÔNG VẬN TẢI",
+            "HỌC SINH",
+            "HÀNG KHÔNG",
+            "HÀNH CHÍNH HỌC",
+            "HƯU TRÍ",
+            "HẢI QUAN ",
+            "KHOA HỌC TỰ NHIÊN",
+            "KHOA HỌC KỸ THUẬT",
+            "KHOA HỌC XÃ HỘI",
+            "KIẾN TRÚC",
+            "KINH TẾ TÀI CHÍNH",
+            "LUẬT",
+            "MÔI TRƯỜNG",
+            "MỸ THUẬT - ĐỒ HỌA",
+            "MẦM NON",
+            "NÔNG LÂM",
+            "NỘI TRỢ",
+            "NGÂN HÀNG",
+            "NGOẠI NGỮ",
+            "THỂ DỤC - THỂ THAO"});
+            this.mComboboxGroupWork.Size = new System.Drawing.Size(231, 20);
+            this.mComboboxGroupWork.TabIndex = 26;
+            // 
+            // labelControl20
+            // 
+            this.labelControl20.Location = new System.Drawing.Point(137, 306);
+            this.labelControl20.Name = "labelControl20";
+            this.labelControl20.Size = new System.Drawing.Size(4, 13);
+            this.labelControl20.TabIndex = 29;
+            this.labelControl20.Text = ":";
+            // 
+            // labelControl21
+            // 
+            this.labelControl21.Appearance.ForeColor = System.Drawing.Color.Red;
+            this.labelControl21.Appearance.Options.UseForeColor = true;
+            this.labelControl21.Location = new System.Drawing.Point(117, 306);
+            this.labelControl21.Name = "labelControl21";
+            this.labelControl21.Size = new System.Drawing.Size(14, 13);
+            this.labelControl21.TabIndex = 28;
+            this.labelControl21.Text = "(*)";
+            // 
+            // labelControl22
+            // 
+            this.labelControl22.Location = new System.Drawing.Point(12, 306);
+            this.labelControl22.Name = "labelControl22";
+            this.labelControl22.Size = new System.Drawing.Size(98, 13);
+            this.labelControl22.TabIndex = 27;
+            this.labelControl22.Text = "Trường/Nơi công tác";
+            // 
+            // mTextBoxWorkAddress
+            // 
+            this.mTextBoxWorkAddress.Location = new System.Drawing.Point(186, 298);
+            this.mTextBoxWorkAddress.Name = "mTextBoxWorkAddress";
+            this.mTextBoxWorkAddress.Size = new System.Drawing.Size(231, 21);
+            this.mTextBoxWorkAddress.TabIndex = 30;
+            this.mTextBoxWorkAddress.Tag = "";
+            // 
+            // labelControl23
+            // 
+            this.labelControl23.Location = new System.Drawing.Point(137, 338);
+            this.labelControl23.Name = "labelControl23";
+            this.labelControl23.Size = new System.Drawing.Size(4, 13);
+            this.labelControl23.TabIndex = 33;
+            this.labelControl23.Text = ":";
+            // 
+            // labelControl24
+            // 
+            this.labelControl24.Appearance.ForeColor = System.Drawing.Color.Red;
+            this.labelControl24.Appearance.Options.UseForeColor = true;
+            this.labelControl24.Location = new System.Drawing.Point(117, 338);
+            this.labelControl24.Name = "labelControl24";
+            this.labelControl24.Size = new System.Drawing.Size(14, 13);
+            this.labelControl24.TabIndex = 32;
+            this.labelControl24.Text = "(*)";
+            // 
+            // labelControl25
+            // 
+            this.labelControl25.Location = new System.Drawing.Point(48, 338);
+            this.labelControl25.Name = "labelControl25";
+            this.labelControl25.Size = new System.Drawing.Size(62, 13);
+            this.labelControl25.TabIndex = 31;
+            this.labelControl25.Text = "Nơi ở hiện tại";
+            // 
+            // mTextBoxHomeAddress
+            // 
+            this.mTextBoxHomeAddress.Location = new System.Drawing.Point(186, 329);
+            this.mTextBoxHomeAddress.Name = "mTextBoxHomeAddress";
+            this.mTextBoxHomeAddress.Size = new System.Drawing.Size(231, 21);
+            this.mTextBoxHomeAddress.TabIndex = 34;
+            this.mTextBoxHomeAddress.Tag = "";
+            // 
+            // labelControl26
+            // 
+            this.labelControl26.Location = new System.Drawing.Point(137, 371);
+            this.labelControl26.Name = "labelControl26";
+            this.labelControl26.Size = new System.Drawing.Size(4, 13);
+            this.labelControl26.TabIndex = 37;
+            this.labelControl26.Text = ":";
+            // 
+            // labelControl27
+            // 
+            this.labelControl27.Appearance.ForeColor = System.Drawing.Color.Red;
+            this.labelControl27.Appearance.Options.UseForeColor = true;
+            this.labelControl27.Location = new System.Drawing.Point(117, 371);
+            this.labelControl27.Name = "labelControl27";
+            this.labelControl27.Size = new System.Drawing.Size(14, 13);
+            this.labelControl27.TabIndex = 36;
+            this.labelControl27.Text = "(*)";
+            // 
+            // labelControl28
+            // 
+            this.labelControl28.Location = new System.Drawing.Point(48, 371);
+            this.labelControl28.Name = "labelControl28";
+            this.labelControl28.Size = new System.Drawing.Size(61, 13);
+            this.labelControl28.TabIndex = 35;
+            this.labelControl28.Text = "Mã xác nhận";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(186, 363);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(231, 21);
+            this.textBox1.TabIndex = 38;
+            this.textBox1.Tag = "";
+            // 
+            // labelControl29
+            // 
+            this.labelControl29.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl29.Appearance.ForeColor = System.Drawing.Color.Red;
+            this.labelControl29.Appearance.Options.UseFont = true;
+            this.labelControl29.Appearance.Options.UseForeColor = true;
+            this.labelControl29.Location = new System.Drawing.Point(439, 121);
+            this.labelControl29.Name = "labelControl29";
+            this.labelControl29.Size = new System.Drawing.Size(231, 16);
+            this.labelControl29.TabIndex = 39;
+            this.labelControl29.Text = "(Nhập theo dạng ngày/tháng/năm)";
+            // 
+            // mRadioButtonFemale
+            // 
+            this.mRadioButtonFemale.AutoSize = true;
+            this.mRadioButtonFemale.Location = new System.Drawing.Point(108, 20);
+            this.mRadioButtonFemale.Name = "mRadioButtonFemale";
+            this.mRadioButtonFemale.Size = new System.Drawing.Size(39, 17);
+            this.mRadioButtonFemale.TabIndex = 41;
+            this.mRadioButtonFemale.TabStop = true;
+            this.mRadioButtonFemale.Text = "Nữ";
+            this.mRadioButtonFemale.UseVisualStyleBackColor = true;
+            // 
+            // mRadioButtonMale
+            // 
+            this.mRadioButtonMale.AutoSize = true;
+            this.mRadioButtonMale.Location = new System.Drawing.Point(32, 20);
+            this.mRadioButtonMale.Name = "mRadioButtonMale";
+            this.mRadioButtonMale.Size = new System.Drawing.Size(46, 17);
+            this.mRadioButtonMale.TabIndex = 40;
+            this.mRadioButtonMale.TabStop = true;
+            this.mRadioButtonMale.Text = "Nam";
+            this.mRadioButtonMale.UseVisualStyleBackColor = true;
+            // 
+            // mRadioChild
+            // 
+            this.mRadioChild.AutoSize = true;
+            this.mRadioChild.Location = new System.Drawing.Point(97, 20);
+            this.mRadioChild.Name = "mRadioChild";
+            this.mRadioChild.Size = new System.Drawing.Size(58, 17);
+            this.mRadioChild.TabIndex = 2;
+            this.mRadioChild.TabStop = true;
+            this.mRadioChild.Text = "Trẻ em";
+            this.mRadioChild.UseVisualStyleBackColor = true;
+            // 
+            // mRadioPersion
+            // 
+            this.mRadioPersion.AutoSize = true;
+            this.mRadioPersion.Location = new System.Drawing.Point(21, 20);
+            this.mRadioPersion.Name = "mRadioPersion";
+            this.mRadioPersion.Size = new System.Drawing.Size(70, 17);
+            this.mRadioPersion.TabIndex = 1;
+            this.mRadioPersion.TabStop = true;
+            this.mRadioPersion.Text = "Người lớn";
+            this.mRadioPersion.UseVisualStyleBackColor = true;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.mRadioPersion);
+            this.groupBox1.Controls.Add(this.mRadioChild);
+            this.groupBox1.Location = new System.Drawing.Point(186, 12);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(167, 47);
+            this.groupBox1.TabIndex = 42;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Nhóm đọc giả";
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.mRadioButtonMale);
+            this.groupBox2.Controls.Add(this.mRadioButtonFemale);
+            this.groupBox2.Location = new System.Drawing.Point(439, 56);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(167, 47);
+            this.groupBox2.TabIndex = 43;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Giới tính";
+            // 
+            // labelControl1
+            // 
+            this.labelControl1.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl1.Appearance.ForeColor = System.Drawing.Color.Red;
+            this.labelControl1.Appearance.Options.UseFont = true;
+            this.labelControl1.Appearance.Options.UseForeColor = true;
+            this.labelControl1.Location = new System.Drawing.Point(475, 12);
+            this.labelControl1.Name = "labelControl1";
+            this.labelControl1.Size = new System.Drawing.Size(343, 32);
+            this.labelControl1.TabIndex = 44;
+            this.labelControl1.Text = "VUI LÒNG NHẬP ĐÚNG THÔNG TIN (TIẾNG VIỆT CÓ DẤU) \r\n                             Đ" +
+    "Ể THẺ ĐƯỢC IN ĐÚNG";
+            // 
+            // labelControl30
+            // 
+            this.labelControl30.Location = new System.Drawing.Point(544, 162);
+            this.labelControl30.Name = "labelControl30";
+            this.labelControl30.Size = new System.Drawing.Size(4, 13);
+            this.labelControl30.TabIndex = 47;
+            this.labelControl30.Text = ":";
+            // 
+            // labelControl31
+            // 
+            this.labelControl31.Appearance.ForeColor = System.Drawing.Color.Red;
+            this.labelControl31.Appearance.Options.UseForeColor = true;
+            this.labelControl31.Location = new System.Drawing.Point(524, 162);
+            this.labelControl31.Name = "labelControl31";
+            this.labelControl31.Size = new System.Drawing.Size(14, 13);
+            this.labelControl31.TabIndex = 46;
+            this.labelControl31.Text = "(*)";
+            // 
+            // labelControl32
+            // 
+            this.labelControl32.Location = new System.Drawing.Point(471, 162);
+            this.labelControl32.Name = "labelControl32";
+            this.labelControl32.Size = new System.Drawing.Size(45, 13);
+            this.labelControl32.TabIndex = 45;
+            this.labelControl32.Text = "Quốc tịch";
+            // 
+            // mComBoboxCountry
+            // 
+            this.mComBoboxCountry.EditValue = "--- Quốc tịch ---";
+            this.mComBoboxCountry.Location = new System.Drawing.Point(587, 155);
+            this.mComBoboxCountry.Name = "mComBoboxCountry";
+            this.mComBoboxCountry.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.mComBoboxCountry.Properties.Items.AddRange(new object[] {
+            "Kinh",
+            "Tày",
+            "Thái",
+            "Mường",
+            "Khơ Me",
+            "H\'Mông",
+            "Nùng",
+            "Hoa",
+            "Dao",
+            "Gia Rai",
+            "Ê Đê",
+            "Ba Na",
+            "Xơ Đăng",
+            "Sán Chay",
+            "Cơ Ho",
+            "Chăm",
+            "Sán Dìu",
+            "Hrê",
+            "Ra Glai",
+            "M\'Nông",
+            "X’Tiêng",
+            "Bru-Vân Kiều",
+            "Thổ",
+            "Khơ Mú",
+            "Cơ Tu",
+            "Giáy",
+            "Giẻ Triêng",
+            "Tà Ôi",
+            "Mạ",
+            "Co",
+            "Chơ Ro",
+            "Xinh Mun",
+            "Hà Nhì",
+            "Chu Ru",
+            "Lào",
+            "Kháng",
+            "La Chí",
+            "Phù Lá",
+            "La Hủ",
+            "La Ha",
+            "Pà Thẻn",
+            "Chứt",
+            "Lự",
+            "Lô Lô",
+            "Mảng",
+            "Cờ Lao",
+            "Bố Y",
+            "Cống",
+            "Ngái",
+            "Si La",
+            "Pu Péo",
+            "Rơ măm",
+            "Brâu",
+            "Ơ Đu",
+            "Khác"});
+            this.mComBoboxCountry.Size = new System.Drawing.Size(231, 20);
+            this.mComBoboxCountry.TabIndex = 48;
+            // 
+            // labelControl33
+            // 
+            this.labelControl33.Location = new System.Drawing.Point(544, 198);
+            this.labelControl33.Name = "labelControl33";
+            this.labelControl33.Size = new System.Drawing.Size(4, 13);
+            this.labelControl33.TabIndex = 51;
+            this.labelControl33.Text = ":";
+            // 
+            // labelControl34
+            // 
+            this.labelControl34.Appearance.ForeColor = System.Drawing.Color.Red;
+            this.labelControl34.Appearance.Options.UseForeColor = true;
+            this.labelControl34.Location = new System.Drawing.Point(524, 198);
+            this.labelControl34.Name = "labelControl34";
+            this.labelControl34.Size = new System.Drawing.Size(14, 13);
+            this.labelControl34.TabIndex = 50;
+            this.labelControl34.Text = "(*)";
+            // 
+            // labelControl35
+            // 
+            this.labelControl35.Location = new System.Drawing.Point(451, 198);
+            this.labelControl35.Name = "labelControl35";
+            this.labelControl35.Size = new System.Drawing.Size(67, 13);
+            this.labelControl35.TabIndex = 49;
+            this.labelControl35.Text = "Nơi cấp CMND";
+            // 
+            // comboBoxEdit2
+            // 
+            this.comboBoxEdit2.EditValue = "--- Quốc tịch ---";
+            this.comboBoxEdit2.Location = new System.Drawing.Point(587, 231);
+            this.comboBoxEdit2.Name = "comboBoxEdit2";
+            this.comboBoxEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.comboBoxEdit2.Properties.Items.AddRange(new object[] {
+            "Kinh",
+            "Tày",
+            "Thái",
+            "Mường",
+            "Khơ Me",
+            "H\'Mông",
+            "Nùng",
+            "Hoa",
+            "Dao",
+            "Gia Rai",
+            "Ê Đê",
+            "Ba Na",
+            "Xơ Đăng",
+            "Sán Chay",
+            "Cơ Ho",
+            "Chăm",
+            "Sán Dìu",
+            "Hrê",
+            "Ra Glai",
+            "M\'Nông",
+            "X’Tiêng",
+            "Bru-Vân Kiều",
+            "Thổ",
+            "Khơ Mú",
+            "Cơ Tu",
+            "Giáy",
+            "Giẻ Triêng",
+            "Tà Ôi",
+            "Mạ",
+            "Co",
+            "Chơ Ro",
+            "Xinh Mun",
+            "Hà Nhì",
+            "Chu Ru",
+            "Lào",
+            "Kháng",
+            "La Chí",
+            "Phù Lá",
+            "La Hủ",
+            "La Ha",
+            "Pà Thẻn",
+            "Chứt",
+            "Lự",
+            "Lô Lô",
+            "Mảng",
+            "Cờ Lao",
+            "Bố Y",
+            "Cống",
+            "Ngái",
+            "Si La",
+            "Pu Péo",
+            "Rơ măm",
+            "Brâu",
+            "Ơ Đu",
+            "Khác"});
+            this.comboBoxEdit2.Size = new System.Drawing.Size(231, 20);
+            this.comboBoxEdit2.TabIndex = 52;
+            // 
+            // mTextBoxAdrdressCMND
+            // 
+            this.mTextBoxAdrdressCMND.Location = new System.Drawing.Point(587, 195);
+            this.mTextBoxAdrdressCMND.Name = "mTextBoxAdrdressCMND";
+            this.mTextBoxAdrdressCMND.Size = new System.Drawing.Size(231, 21);
+            this.mTextBoxAdrdressCMND.TabIndex = 53;
+            this.mTextBoxAdrdressCMND.Tag = "";
+            // 
+            // labelControl36
+            // 
+            this.labelControl36.Location = new System.Drawing.Point(544, 238);
+            this.labelControl36.Name = "labelControl36";
+            this.labelControl36.Size = new System.Drawing.Size(4, 13);
+            this.labelControl36.TabIndex = 56;
+            this.labelControl36.Text = ":";
+            // 
+            // labelControl37
+            // 
+            this.labelControl37.Appearance.ForeColor = System.Drawing.Color.Red;
+            this.labelControl37.Appearance.Options.UseForeColor = true;
+            this.labelControl37.Location = new System.Drawing.Point(524, 238);
+            this.labelControl37.Name = "labelControl37";
+            this.labelControl37.Size = new System.Drawing.Size(14, 13);
+            this.labelControl37.TabIndex = 55;
+            this.labelControl37.Text = "(*)";
+            // 
+            // labelControl38
+            // 
+            this.labelControl38.Location = new System.Drawing.Point(477, 238);
+            this.labelControl38.Name = "labelControl38";
+            this.labelControl38.Size = new System.Drawing.Size(39, 13);
+            this.labelControl38.TabIndex = 54;
+            this.labelControl38.Text = "Trình độ";
+            // 
+            // labelControl39
+            // 
+            this.labelControl39.Location = new System.Drawing.Point(544, 270);
+            this.labelControl39.Name = "labelControl39";
+            this.labelControl39.Size = new System.Drawing.Size(4, 13);
+            this.labelControl39.TabIndex = 59;
+            this.labelControl39.Text = ":";
+            // 
+            // labelControl40
+            // 
+            this.labelControl40.Appearance.ForeColor = System.Drawing.Color.Red;
+            this.labelControl40.Appearance.Options.UseForeColor = true;
+            this.labelControl40.Location = new System.Drawing.Point(524, 270);
+            this.labelControl40.Name = "labelControl40";
+            this.labelControl40.Size = new System.Drawing.Size(14, 13);
+            this.labelControl40.TabIndex = 58;
+            this.labelControl40.Text = "(*)";
+            // 
+            // labelControl41
+            // 
+            this.labelControl41.Location = new System.Drawing.Point(456, 270);
+            this.labelControl41.Name = "labelControl41";
+            this.labelControl41.Size = new System.Drawing.Size(62, 13);
+            this.labelControl41.TabIndex = 57;
+            this.labelControl41.Text = "Số điện thoại";
+            // 
+            // mTextBoxMobile
+            // 
+            this.mTextBoxMobile.Location = new System.Drawing.Point(587, 263);
+            this.mTextBoxMobile.Name = "mTextBoxMobile";
+            this.mTextBoxMobile.Size = new System.Drawing.Size(231, 21);
+            this.mTextBoxMobile.TabIndex = 60;
+            this.mTextBoxMobile.Tag = "";
+            // 
+            // labelControl42
+            // 
+            this.labelControl42.Location = new System.Drawing.Point(544, 306);
+            this.labelControl42.Name = "labelControl42";
+            this.labelControl42.Size = new System.Drawing.Size(4, 13);
+            this.labelControl42.TabIndex = 63;
+            this.labelControl42.Text = ":";
+            // 
+            // labelControl43
+            // 
+            this.labelControl43.Appearance.ForeColor = System.Drawing.Color.Red;
+            this.labelControl43.Appearance.Options.UseForeColor = true;
+            this.labelControl43.Location = new System.Drawing.Point(524, 306);
+            this.labelControl43.Name = "labelControl43";
+            this.labelControl43.Size = new System.Drawing.Size(14, 13);
+            this.labelControl43.TabIndex = 62;
+            this.labelControl43.Text = "(*)";
+            // 
+            // labelControl44
+            // 
+            this.labelControl44.Location = new System.Drawing.Point(441, 306);
+            this.labelControl44.Name = "labelControl44";
+            this.labelControl44.Size = new System.Drawing.Size(76, 13);
+            this.labelControl44.TabIndex = 61;
+            this.labelControl44.Text = "Địa chỉ công tác";
+            // 
+            // mTextBoxWorkplace
+            // 
+            this.mTextBoxWorkplace.Location = new System.Drawing.Point(587, 298);
+            this.mTextBoxWorkplace.Name = "mTextBoxWorkplace";
+            this.mTextBoxWorkplace.Size = new System.Drawing.Size(231, 21);
+            this.mTextBoxWorkplace.TabIndex = 64;
+            this.mTextBoxWorkplace.Tag = "";
+            // 
+            // labelControl45
+            // 
+            this.labelControl45.Location = new System.Drawing.Point(545, 337);
+            this.labelControl45.Name = "labelControl45";
+            this.labelControl45.Size = new System.Drawing.Size(4, 13);
+            this.labelControl45.TabIndex = 67;
+            this.labelControl45.Text = ":";
+            // 
+            // labelControl46
+            // 
+            this.labelControl46.Appearance.ForeColor = System.Drawing.Color.Red;
+            this.labelControl46.Appearance.Options.UseForeColor = true;
+            this.labelControl46.Location = new System.Drawing.Point(525, 337);
+            this.labelControl46.Name = "labelControl46";
+            this.labelControl46.Size = new System.Drawing.Size(14, 13);
+            this.labelControl46.TabIndex = 66;
+            this.labelControl46.Text = "(*)";
+            // 
+            // labelControl47
+            // 
+            this.labelControl47.Location = new System.Drawing.Point(492, 337);
+            this.labelControl47.Name = "labelControl47";
+            this.labelControl47.Size = new System.Drawing.Size(24, 13);
+            this.labelControl47.TabIndex = 65;
+            this.labelControl47.Text = "&Email";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(587, 329);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(231, 21);
+            this.textBox2.TabIndex = 68;
+            this.textBox2.Tag = "";
+            // 
+            // mButtonCode
+            // 
+            this.mButtonCode.Location = new System.Drawing.Point(477, 361);
+            this.mButtonCode.Name = "mButtonCode";
+            this.mButtonCode.Size = new System.Drawing.Size(75, 23);
+            this.mButtonCode.TabIndex = 69;
+            this.mButtonCode.Text = "KHDNS";
+            // 
+            // mButtonregis
+            // 
+            this.mButtonregis.Location = new System.Drawing.Point(186, 463);
+            this.mButtonregis.Name = "mButtonregis";
+            this.mButtonregis.Size = new System.Drawing.Size(75, 23);
+            this.mButtonregis.TabIndex = 70;
+            this.mButtonregis.Text = "Đăng Ký";
+            // 
+            // mButtonReset
+            // 
+            this.mButtonReset.Location = new System.Drawing.Point(278, 463);
+            this.mButtonReset.Name = "mButtonReset";
+            this.mButtonReset.Size = new System.Drawing.Size(75, 23);
+            this.mButtonReset.TabIndex = 71;
+            this.mButtonReset.Text = "Đặt lại";
+            // 
+            // labelControl48
+            // 
+            this.labelControl48.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl48.Appearance.ForeColor = System.Drawing.Color.Red;
+            this.labelControl48.Appearance.Options.UseFont = true;
+            this.labelControl48.Appearance.Options.UseForeColor = true;
+            this.labelControl48.Location = new System.Drawing.Point(186, 412);
+            this.labelControl48.Name = "labelControl48";
+            this.labelControl48.Size = new System.Drawing.Size(226, 16);
+            this.labelControl48.TabIndex = 72;
+            this.labelControl48.Text = "(*) là những trường nhập bắt buộc";
+
+            ((System.ComponentModel.ISupportInitialize)(this.mComboDanToc.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mComboboxGroupWork.Properties)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.mComBoboxCountry.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit2.Properties)).EndInit();
+
+        }
+
+        #endregion
+
+        private DevExpress.XtraEditors.LabelControl labelControl2;
+        private DevExpress.XtraEditors.LabelControl labelControl3;
+        private DevExpress.XtraEditors.LabelControl labelControl4;
+        private System.Windows.Forms.TextBox mTextBoxName;
+        private DevExpress.XtraEditors.LabelControl labelControl5;
+        private DevExpress.XtraEditors.LabelControl labelControl6;
+        private DevExpress.XtraEditors.LabelControl labelControl7;
+        private System.Windows.Forms.TextBox mTextBoxDateOfBirth;
+        private DevExpress.XtraEditors.LabelControl labelControl8;
+        private DevExpress.XtraEditors.LabelControl labelControl9;
+        private DevExpress.XtraEditors.LabelControl labelControl10;
+        private DevExpress.XtraEditors.ComboBoxEdit mComboDanToc;
+        private DevExpress.XtraEditors.LabelControl labelControl11;
+        private DevExpress.XtraEditors.LabelControl labelControl12;
+        private DevExpress.XtraEditors.LabelControl labelControl13;
+        private System.Windows.Forms.TextBox mTextBoxCMND;
+        private DevExpress.XtraEditors.LabelControl labelControl14;
+        private DevExpress.XtraEditors.LabelControl labelControl15;
+        private DevExpress.XtraEditors.LabelControl labelControl16;
+        private System.Windows.Forms.TextBox mTextBoxWork;
+        private DevExpress.XtraEditors.LabelControl labelControl17;
+        private DevExpress.XtraEditors.LabelControl labelControl18;
+        private DevExpress.XtraEditors.LabelControl labelControl19;
+        private DevExpress.XtraEditors.ComboBoxEdit mComboboxGroupWork;
+        private DevExpress.XtraEditors.LabelControl labelControl20;
+        private DevExpress.XtraEditors.LabelControl labelControl21;
+        private DevExpress.XtraEditors.LabelControl labelControl22;
+        private System.Windows.Forms.TextBox mTextBoxWorkAddress;
+        private DevExpress.XtraEditors.LabelControl labelControl23;
+        private DevExpress.XtraEditors.LabelControl labelControl24;
+        private DevExpress.XtraEditors.LabelControl labelControl25;
+        private System.Windows.Forms.TextBox mTextBoxHomeAddress;
+        private DevExpress.XtraEditors.LabelControl labelControl26;
+        private DevExpress.XtraEditors.LabelControl labelControl27;
+        private DevExpress.XtraEditors.LabelControl labelControl28;
+        private System.Windows.Forms.TextBox textBox1;
+        private DevExpress.XtraEditors.LabelControl labelControl29;
+        private System.Windows.Forms.RadioButton mRadioButtonFemale;
+        private System.Windows.Forms.RadioButton mRadioButtonMale;
+        private System.Windows.Forms.RadioButton mRadioChild;
+        private System.Windows.Forms.RadioButton mRadioPersion;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private DevExpress.XtraEditors.LabelControl labelControl1;
+        private DevExpress.XtraEditors.LabelControl labelControl30;
+        private DevExpress.XtraEditors.LabelControl labelControl31;
+        private DevExpress.XtraEditors.LabelControl labelControl32;
+        private DevExpress.XtraEditors.ComboBoxEdit mComBoboxCountry;
+        private DevExpress.XtraEditors.LabelControl labelControl33;
+        private DevExpress.XtraEditors.LabelControl labelControl34;
+        private DevExpress.XtraEditors.LabelControl labelControl35;
+        private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit2;
+        private System.Windows.Forms.TextBox mTextBoxAdrdressCMND;
+        private DevExpress.XtraEditors.LabelControl labelControl36;
+        private DevExpress.XtraEditors.LabelControl labelControl37;
+        private DevExpress.XtraEditors.LabelControl labelControl38;
+        private DevExpress.XtraEditors.LabelControl labelControl39;
+        private DevExpress.XtraEditors.LabelControl labelControl40;
+        private DevExpress.XtraEditors.LabelControl labelControl41;
+        private System.Windows.Forms.TextBox mTextBoxMobile;
+        private DevExpress.XtraEditors.LabelControl labelControl42;
+        private DevExpress.XtraEditors.LabelControl labelControl43;
+        private DevExpress.XtraEditors.LabelControl labelControl44;
+        private System.Windows.Forms.TextBox mTextBoxWorkplace;
+        private DevExpress.XtraEditors.LabelControl labelControl45;
+        private DevExpress.XtraEditors.LabelControl labelControl46;
+        private DevExpress.XtraEditors.LabelControl labelControl47;
+        private System.Windows.Forms.TextBox textBox2;
+        private DevExpress.XtraEditors.SimpleButton mButtonCode;
+        private DevExpress.XtraEditors.SimpleButton mButtonregis;
+        private DevExpress.XtraEditors.SimpleButton mButtonReset;
+        private DevExpress.XtraEditors.LabelControl labelControl48;
+    }
+}

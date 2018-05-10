@@ -1,0 +1,348 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4F317715-2999-40D7-9F58-D393E92363F9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QL_DocGiaThuVien</RootNamespace>
+    <AssemblyName>QL_DocGiaThuVien</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v17.2" />
+    <Reference Include="DevExpress.Data.v17.2" />
+    <Reference Include="DevExpress.Images.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Office.v17.2.Core, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Pdf.v17.2.Core, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.RichEdit.v17.2.Core, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v17.2" />
+    <Reference Include="DevExpress.Sparkline.v17.2.Core" />
+    <Reference Include="DevExpress.XtraBars.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v17.2" />
+    <Reference Include="DevExpress.Printing.v17.2.Core" />
+    <Reference Include="DevExpress.XtraGrid.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraRichEdit.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddStaffToGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddStaffToGroup.Designer.cs">
+      <DependentUpon>AddStaffToGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BorrowBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BorrowBook.Designer.cs">
+      <DependentUpon>BorrowBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlStaff.Designer.cs">
+      <DependentUpon>ControlStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateAccountReader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateAccountReader.Designer.cs">
+      <DependentUpon>CreateAccountReader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FindReaderCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FindReaderCard.Designer.cs">
+      <DependentUpon>FindReaderCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_CauHinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_CauHinh.Designer.cs">
+      <DependentUpon>frm_CauHinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DoiMatKhau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DoiMatKhau.Designer.cs">
+      <DependentUpon>frm_DoiMatKhau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_PhanNhomNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_PhanNhomNhanVien.Designer.cs">
+      <DependentUpon>frm_PhanNhomNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_PhanQuyenNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_PhanQuyenNhanVien.Designer.cs">
+      <DependentUpon>frm_PhanQuyenNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_QuanLyNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_QuanLyNhanVien.Designer.cs">
+      <DependentUpon>frm_QuanLyNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_QuanLyTheDocGia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_QuanLyTheDocGia.Designer.cs">
+      <DependentUpon>frm_QuanLyTheDocGia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ThemNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ThemNhanVien.Designer.cs">
+      <DependentUpon>frm_ThemNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ThemTheDocGia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ThemTheDocGia.Designer.cs">
+      <DependentUpon>frm_ThemTheDocGia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MD5.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QL_DocGia_KhoaHocTongHopTPHCMDataSet.cs">
+      <DependentUpon>QL_DocGia_KhoaHocTongHopTPHCMDataSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="QL_DocGia_KhoaHocTongHopTPHCMDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QL_DocGia_KhoaHocTongHopTPHCMDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ResetMatKhau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ResetMatKhau.Designer.cs">
+      <DependentUpon>frm_ResetMatKhau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReturnBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReturnBook.Designer.cs">
+      <DependentUpon>ReturnBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_CauHinh.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_CauHinh.Designer.cs">
+      <DependentUpon>UC_CauHinh.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddStaffToGroup.resx">
+      <DependentUpon>AddStaffToGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BorrowBook.resx">
+      <DependentUpon>BorrowBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlStaff.resx">
+      <DependentUpon>ControlStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateAccountReader.resx">
+      <DependentUpon>CreateAccountReader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FindReaderCard.resx">
+      <DependentUpon>FindReaderCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_CauHinh.resx">
+      <DependentUpon>frm_CauHinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DoiMatKhau.resx">
+      <DependentUpon>frm_DoiMatKhau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_PhanNhomNhanVien.resx">
+      <DependentUpon>frm_PhanNhomNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_PhanQuyenNhanVien.resx">
+      <DependentUpon>frm_PhanQuyenNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_QuanLyNhanVien.resx">
+      <DependentUpon>frm_QuanLyNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_QuanLyTheDocGia.resx">
+      <DependentUpon>frm_QuanLyTheDocGia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_ThemNhanVien.resx">
+      <DependentUpon>frm_ThemNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_ThemTheDocGia.resx">
+      <DependentUpon>frm_ThemTheDocGia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="frm_ResetMatKhau.resx">
+      <DependentUpon>frm_ResetMatKhau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReturnBook.resx">
+      <DependentUpon>ReturnBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_CauHinh.resx">
+      <DependentUpon>UC_CauHinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="QL_DocGia_KhoaHocTongHopTPHCMDataSet.xsc">
+      <DependentUpon>QL_DocGia_KhoaHocTongHopTPHCMDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QL_DocGia_KhoaHocTongHopTPHCMDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QL_DocGia_KhoaHocTongHopTPHCMDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QL_DocGia_KhoaHocTongHopTPHCMDataSet.xss">
+      <DependentUpon>QL_DocGia_KhoaHocTongHopTPHCMDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\background_staff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background_staff1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DAO\DAO.csproj">
+      <Project>{bce04052-9f45-4d41-b844-a3ce7e02c493}</Project>
+      <Name>DAO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hinhdangnhap2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capthe 1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tải xuống.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tải xuống.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\people-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tim.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thumb_COLOUR.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bellsda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\627249-delet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh_arro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capthe 11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\find.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thumb_COLOURBOX15490846.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\power.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

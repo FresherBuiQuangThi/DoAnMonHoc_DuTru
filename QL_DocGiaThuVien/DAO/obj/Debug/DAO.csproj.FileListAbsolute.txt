@@ -1,0 +1,5 @@
+E:\DoAnMonHoc_Final\QL_DocGiaThuVien\DAO\bin\Debug\DAO.dll.config
+E:\DoAnMonHoc_Final\QL_DocGiaThuVien\DAO\bin\Debug\DAO.dll
+E:\DoAnMonHoc_Final\QL_DocGiaThuVien\DAO\bin\Debug\DAO.pdb
+E:\DoAnMonHoc_Final\QL_DocGiaThuVien\DAO\obj\Debug\DAO.dll
+E:\DoAnMonHoc_Final\QL_DocGiaThuVien\DAO\obj\Debug\DAO.pdb
